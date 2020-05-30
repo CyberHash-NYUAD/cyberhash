@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
 
 html,body{
   height:100%;
   width:100%;
-  font-family: 'Poppins', sans-serif;
   color: #222;
 
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
 }
 .navbar{
   padding: .8rem;
@@ -35,10 +42,10 @@ img {
 
   }
 @media (max-width: 768px) {
-  
+
 }
 @media (max-width: 576px) {
-  
+
 }
 /*carousel image*/
 .carousel-image{
@@ -116,8 +123,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 
 */
-
-
-
-
-
