@@ -1,7 +1,12 @@
 
 <h2><strong>This website is the work of the Cyber# website development team.</strong></h2>
 
-<p><strong>Developers:</strong> Máté Hekfusz, Sashank Silwal and Reem Hazim </p>
+<p><strong>Developers:</strong> 
+  <ul>
+    <li> Reem Hazim (current - Fall 2020)</li>
+    <li> Máté Hekfusz and Sashank Silwal (Spring 2020) </li>
+  </ul>
+</p>
 
 <h3>Main Pages:</h3>
 <p>
