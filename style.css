@@ -57,6 +57,7 @@ img {
 .carousel-image{
   width: 100vh;
   height: 100vh;
+  object-fit: cover;
 }
 
 /*---Firefox Bug Fix --*/
@@ -71,6 +72,8 @@ img {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  object-fit: cover;
+  background-position: center;
 }
 /*--- Fixed Background Image --*/
 figure {
@@ -107,7 +110,47 @@ figure {
 }
 
 
+hr {
+  width: 20%;
+}
 
+.do-icon {
+  padding: 20px;
+  margin-bottom: 30px;
+  background: black;
+  color: white;
+}
+
+.do {
+  font-size: 1.5em;
+}
+
+.do-div p {
+  font-size: 1.3em;
+}
+
+.do-div {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.welcome {
+  margin-bottom: 50px;
+}
+
+#about-txt {
+  padding: 5%;
+}
+
+.about {
+  padding: 0;
+}
+
+#about-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 
 
 /*
