@@ -263,3 +263,13 @@ hr {
 #signup input[type="email"] {
   width: 50%;
 }
+
+.btn-outline-primary {
+  border-color: #0271A7;
+  color: #0271A7;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0271A7;
+  border-color: #0271A7;
+}
