@@ -23,14 +23,6 @@ p, a, li{
   bottom: 15%;
 }
 
-/*.carousel-caption h1 {
-  font-size: 4.0em;
-}*/
-
-/*.carousel-caption h3 {
-  font-size: 1.5em;
-}*/
-
 .navbar-nav li{
   margin-right: 1.4rem;
 }
@@ -54,7 +46,7 @@ img {
 
 /*---Media Queries --*/
 @media (min-width: 992px) {
-  
+
   }
 @media (min-width: 768px) {
   .carousel-caption {
@@ -239,16 +231,17 @@ hr {
   height: 300px;
 }
 
-.btn {
-  background: #0398fc;
-  border-color: #0398fc;
-  border-radius: 50px;
-}
-
 .team-hr, .do-hr {
   width: 130px;
 }
 
-.col-lg-4 img {
-  border-radius: 50%;
+/*
+#latest-events h1 {
+  text-align: center;
 }
+*/
+.display-4 {
+  text-align: center;
+  font-size: 3.3rem;
+}
+
