@@ -9,7 +9,7 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://kit.fontawesome.com/ee335db31e.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
 <body>
 
@@ -73,7 +73,7 @@
 
 
 <!--- What We Do Section -->
-<div class="container-fluid my-5 welcome">
+<div class="container-fluid mt-5 mb-3 welcome">
 	<div class="row text-center padding">
 		<div class="col-12 mb-4">
 			<h1 class="display-4">What We Do</h1>
@@ -102,17 +102,17 @@
 
 <!--- About Us Section -->
 <div class="p-5 container-fluid">
-<div class="row padding shadow rounded" id="about">
-	<div class="p-5 col-lg-7 col-md-8 col-xs-12">
-		<h1>About Us</h1>
-		<hr align="left">
-		<p>Cyber# is the first cyber security SIG at NYUAD. Cyber# is the place where students from all majors and backgrounds can learn about the benefits and consequences of cyber ethics, cyber law, cyber security etc. The SIG's mission is to offer workshops and trainings on security concepts, soft skills, team and leadership skills, to promote diversity and inclusion and to prepare students for careers in tech and cyber security through non-technical and technical trainings. We also organize panels and discussions on currently relevant topics of AI risks and security and other fun events. Some exciting events that we’ll organize this semester are: weekly CTF trainings, panel discussions, career advising and CTF competitions.</p>
-		<a href ="about.html" class="btn btn-outline-primary px-4">Learn More</a>
+	<div class="row padding shadow rounded" id="about">
+		<div class="p-5 col-lg-7 col-md-8 col-xs-12">
+			<h1>About Us</h1>
+			<hr align="left">
+			<p>Cyber# is the first cyber security SIG at NYUAD. Cyber# is the place where students from all majors and backgrounds can learn about the benefits and consequences of cyber ethics, cyber law, cyber security etc. The SIG's mission is to offer workshops and trainings on security concepts, soft skills, team and leadership skills, to promote diversity and inclusion and to prepare students for careers in tech and cyber security through non-technical and technical trainings. We also organize panels and discussions on currently relevant topics of AI risks and security and other fun events. Some exciting events that we’ll organize this semester are: weekly CTF trainings, panel discussions, career advising and CTF competitions.</p>
+			<a href ="about.html" class="btn btn-outline-primary px-4">Learn More</a>
+		</div>
+		<div class="col-lg-5 col-md-4 col-xs-12 p-0">
+			<img src="img/body/img1.jpg" class="img-fluid about-image">
+		</div>
 	</div>
-	<div class="col-lg-5 col-md-4 col-xs-12 p-0">
-		<img src="img/body/img1.jpg" class="img-fluid about-image">
-</div>
-</div>
 </div>
 
 <!-- Latest Events -->
@@ -157,7 +157,7 @@
 </div>
 
 <!-- Our Team section -->
-<div class="container-fluid team my-5 text-center">
+<div class="container-fluid team my-4 text-center">
 	<h1 class="display-4">Our Team</h1>
 	<hr class="mb-5 mt-3 team-hr">
 	<div class=avatars> 
@@ -213,6 +213,24 @@
 <a href ="team.html" class="btn btn-outline-primary btn-lg mt-4 px-4">Meet Them!</a> 
 </div>
 
+<!-- Mailchimp sign up form -->
+<div class="container-fluid text-center d-flex justify-content-center align-items-center" id="signup">
+	<div id="mc_embed_signup">
+		<form action="https://github.us18.list-manage.com/subscribe/post?u=90854b717264d00aca18628a7&amp;id=b41df1334a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		    <div id="mc_embed_signup_scroll" class="form-group d-flex justify-content-center align-items-center flex-column">
+				<h1 class="display-4">Subscribe to our Newsletter!</h1>
+				<p>Sign up to receive news about our latest events, workshops, and competitions!</p>
+				<input type="email" value="" name="EMAIL" class="email form-control mb-3" id="mce-EMAIL" placeholder="email address" required>
+			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+			    	<input type="text" name="b_90854b717264d00aca18628a7_b41df1334a" tabindex="-1" value="">
+			    </div class="clear">
+			    	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-outline-light">
+	    	</div>
+		</form>
+	</div>
+</div>
+
 <!--- Footer -->
 <footer>
 	<div class="pl-5 py-3 container-fluid padding text-white" style="background-color: #000000; font-size: 15px;">
@@ -240,21 +258,20 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	<script type="text/javascript">
-		
-$("[data-trigger]").on("click", function(e){
-    e.preventDefault();
-    e.stopPropagation();
-    var offcanvas_id =  $(this).attr('data-trigger');
-    $(offcanvas_id).toggleClass("show");
-    $('body').toggleClass("offcanvas-active");
-    $(".screen-overlay").toggleClass("show");
-}); 
+		$("[data-trigger]").on("click", function(e){
+		    e.preventDefault();
+		    e.stopPropagation();
+		    var offcanvas_id =  $(this).attr('data-trigger');
+		    $(offcanvas_id).toggleClass("show");
+		    $('body').toggleClass("offcanvas-active");
+		    $(".screen-overlay").toggleClass("show");
+		}); 
 
-$(".btn-close, .screen-overlay").click(function(e){
-    $(".screen-overlay").removeClass("show");
-    $(".mobile-offcanvas").removeClass("show");
-    $("body").removeClass("offcanvas-active");
-}); 
+		$(".btn-close, .screen-overlay").click(function(e){
+		    $(".screen-overlay").removeClass("show");
+		    $(".mobile-offcanvas").removeClass("show");
+		    $("body").removeClass("offcanvas-active");
+		}); 
 	</script>
 </body>
 </html>
