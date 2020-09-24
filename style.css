@@ -156,6 +156,16 @@ hr {
     border-radius: 50%;
     width: 100%;
     vertical-align: middle;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.avatar img:hover {
+    -webkit-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    transform:scale(1.2);
 }
 
 .avatar {
@@ -184,13 +194,22 @@ hr {
   font-size: 0.9rem;
 }
 
-.team-member {
-  border-radius: 0%;
-}
-
 .team-member hr {
   margin-top:0;
   margin-bottom: 0.4em;
+}
+
+.team-member img{
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.team-member img:hover{
+    -webkit-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    transform:scale(1.15);
 }
 
 /*Avatar sizes and placement*/
@@ -296,7 +315,13 @@ hr {
   color: #0271A7;
 }
 
-.btn-outline-primary:hover {
-  background-color: #0271A7;
-  border-color: #0271A7;
+.btn-outline-primary:hover, 
+.btn-outline-primary:active:focus{
+  background-color: #0271A7 !important; 
+  border-color: #0271A7 !important; 
+  box-shadow: none !important;
 }
+
+
+
+
