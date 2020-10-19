@@ -324,3 +324,20 @@ hr {
   border-color: #0271A7 !important; 
   box-shadow: none !important;
 }
+
+.come-in {
+  transform: translateY(200px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 1.0s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+ƒ
